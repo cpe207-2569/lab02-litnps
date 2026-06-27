@@ -51,12 +51,6 @@ img {
   gap: 30px; 
 }
 
-.right-allign {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -103,13 +97,8 @@ img {
 }
 
 .skill-box:hover {
-    border: 2px solid rgb(255, 163, 163);
-    padding: 10px;
-    border-radius: 10px;
-
     background-color:rgb(255, 163, 163);
 
-    text-decoration: none;
     color:aliceblue;
 
     transition:250ms;
